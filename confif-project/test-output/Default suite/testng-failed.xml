@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="MultiThread1">
+        <methods>
+          <include name="claunchFB5"/>
+          <include name="claunchFB7"/>
+          <include name="claunchFB4"/>
+          <include name="claunchFB9"/>
+          <include name="claunchFB6"/>
+          <include name="blaunchLinkedIn"/>
+          <include name="claunchFB8"/>
+          <include name="tearDown"/>
+          <include name="claunchFB3"/>
+          <include name="setup"/>
+          <include name="claunchFB"/>
+        </methods>
+      </class> <!-- MultiThread1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
