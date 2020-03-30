@@ -7,5 +7,6 @@ public class Fifth extends MultiThread {
 		getDriver().get(url);
 		String threadname = Thread.currentThread().getName();
 		System.out.println(threadname);
+		getDriver().close();
 	}
 }
